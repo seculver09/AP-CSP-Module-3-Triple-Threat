@@ -7,15 +7,15 @@ Name - Month Year
 import random
 
 def main() -> None:
-    pass # remove
-    # set variables for cost to play and base prize
+    cost_to_play: int = 1
+base_prize: int =10
+mega_number: int =6    
+mega_multiplier: int =10
 
     # roll three dice
-
+ roll int=  
     # check if they are equal   
-    # if they are, calculate the prize
+    # i they are, calculate the prize
+print  ;"Casino collects:$1  {cost to play}")
 
-    # output results
-
-if __name__ == "__main__":
-    main()
+__name__ == "__main__": main()
