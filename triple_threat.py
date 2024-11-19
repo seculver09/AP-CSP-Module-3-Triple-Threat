@@ -13,9 +13,10 @@ mega_number: int =6
 mega_multiplier: int =10
 
     # roll three dice
- roll int=  
-    # check if they are equal   
-    # i they are, calculate the prize
-print  ;"Casino collects:$1  {cost to play}")
-
+   player, roll_1: int = random.randomint(1, 6)  
+   player, roll_2: int = random.randomint(1, 6)  
+   player, roll_3: int = random.randomint(1, 6) 
+     # i they are, calculate the prize
+    print(f"Casino collects:   ${cost_to_play}")
+    print(f"Player rolls {roll_1}---{roll_2}---{roll_3}")
 __name__ == "__main__": main()
